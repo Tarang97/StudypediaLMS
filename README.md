@@ -1,4 +1,4 @@
-# StudypediaLMS
+# Studypedia LMS
 
 Developed a working Learning Management System website with PHP, MVC, JavaScript, HTML5, CSS, Bootstrap CSS. The project is somewhat related to learning management system 
 where class notes prepared by each college faculties can be available to students in every college and everywhere, and the moderation was already taken care by itself 
