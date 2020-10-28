@@ -1,0 +1,1 @@
+First Increase 'upload_max_filesize' value to 32M

@@ -1,0 +1,203 @@
+/* Contact Form Button CSS */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background: #ff9600;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 0;
+    font-weight: 800;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+}
+.btn:hover {
+	background-color: #3399ff;
+	color: white;
+}
+.btn span {
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    content: "";
+    opacity: 0.5;
+}
+[class^="icon-"], {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.msg {
+    display: none;
+}
+/* Contact Card */
+
+.contact-detail {
+    max-width: 360px;
+    margin: 9px 0;
+    float: right;
+    background: #17a43b;
+    color: #fff;
+    box-shadow: 0 0 30px #bfcdbf;
+    position: relative;
+    z-index: 2;
+}
+.contact-detail .address {
+    display: block;
+    padding: 18px 40px 12px 70px;
+}
+.contact-detail .inner {
+    display: block;
+    padding: 18px 0;
+    border-bottom: 1px #45b662 solid;
+    position: relative;
+}
+.contact-detail .inner:before {
+    width: 16px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    left: -30px;
+    font-family: 'icomoon' !important;
+    font-size: 22px;
+    content: "\e918";
+    color: #a4dbb2;
+}
+.contact-detail .inner h3 {
+    padding-bottom: 6px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact-detail .inner p {
+    color: #9be5ad;
+    line-height: 20px;
+}
+.contact-detail .inner:nth-child(2):before {
+    width: 19px;
+    height: 19px;
+    display: block;
+    position: absolute;
+    left: -30px;
+    font-size: 18px;
+    content: "\e91a";
+}
+.contact-detail .inner:nth-child(3) {
+    border-bottom: none;
+}
+.contact-detail .inner:nth-child(3):before {
+    width: 21px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 20px;
+    font-size: 16px;
+    content: "\e919";
+}
+.contact-detail .inner a {
+    padding-bottom: 6px;
+    font-size: 18px;
+    color: #fff;
+}
+.contact-bottom {
+    display: block;
+    padding: 27px 0 23px 0;
+    background: #ff9600;
+    text-align: center;
+}
+.contact-bottom ul.follow-us {
+    display: block;
+}
+.contact-bottom ul.follow-us li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 24px;
+}
+.contact-bottom ul.follow-us li a {
+    color: #fff;
+    opacity: 0.7;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+.fa-google-plus:before {
+    content: "\f0d5";
+}
+
+/* Start Have Questions */
+.our-impotance {
+    background: #fff;
+}
+.padding-lg {
+    display: block;
+    /*padding-top: 0px;*/
+    padding-bottom: 90px;
+}
+.have-question h2 {
+    color: #2d4256;
+	display: block;
+    padding-bottom: 44px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.our-impotance ul {
+    display: block;
+    text-align: center;
+}
+.have-question ul li {
+    margin-bottom: 0px;
+}
+.our-impotance ul li {
+    display: block;
+    border-right: 1px #e9e9e9 solid;
+    position: relative;
+	margin-bottom: 0px;
+}
+.our-impotance ul li .inner {
+    display: block;
+    padding: 30px;
+}
+.our-impotance ul li .inner img {
+    border-radius: 3px;
+	vertical-align: middle;
+	border: 0;
+}
+.our-impotance ul li h3 {
+    display: block;
+    padding: 22px 0 12px 0;
+    font-size: 18px;
+    color: #284962;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.our-impotance ul li p {
+    display: block;
+    font-size: 15px;
+    color: #969a9e;
+    line-height: 20px;
+}
+.our-impotance ul li:nth-child(3n) {
+    border-right: none;
+}

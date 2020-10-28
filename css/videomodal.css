@@ -1,0 +1,72 @@
+.modal {
+    z-index: 99999;
+}
+.modal-content {
+    border-radius: 0px;
+}
+.close {
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: 0;
+    z-index: 2;
+	float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+.close span {
+    width: 36px;
+    height: 36px;
+    display: block;
+    text-indent: -9999px;
+    background: url(../images/popup-close-btn.jpg) no-repeat center top;
+}
+.video-block {
+    margin-bottom: 0px;
+	height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.video-block iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+iframe {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.video-block a {
+    width: 67px;
+    display: block;
+    position: absolute;
+    margin: -34px auto 0;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    cursor: pointer;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.modal-body .video-block {
+    margin-bottom: 0px;
+}
